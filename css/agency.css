@@ -232,7 +232,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -291,6 +291,7 @@ section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
 }
+
 section h3.section-subheading {
   font-size: 16px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -299,6 +300,17 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 75px;
 }
+
+section h3.body-paragraph {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-weight: 400;
+  line-height: 200%;
+  margin-bottom: 75px;
+}
+
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
